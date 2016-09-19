@@ -1,5 +1,4 @@
 # account log is responsible for keeping track of the transactions
-
 require 'account_log'
 
 describe AccountLog do

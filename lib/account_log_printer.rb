@@ -1,3 +1,4 @@
+# account log is responsible for printing out tansaction history
 class AccountLogPrinter
 
   def print(log)

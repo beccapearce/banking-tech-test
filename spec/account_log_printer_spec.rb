@@ -1,8 +1,8 @@
+# account log is responsible for printing out tansaction history
 require 'account_log_printer'
-require 'account_log'
 
 describe AccountLogPrinter do
-  let (:subject) {described_class.new}
+  let (:subject) { described_class.new }
   let(:today) { Date.today }
 
 
