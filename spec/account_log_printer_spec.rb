@@ -1,10 +1,11 @@
 # account log is responsible for printing out tansaction history
+
+# TODO refactor
 require 'account_log_printer'
 
 describe AccountLogPrinter do
   let (:subject) { described_class.new }
   let(:today) { Date.today }
-
 
   it "prints out the account history" do
     account_log = double("account_log")
