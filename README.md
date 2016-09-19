@@ -15,9 +15,6 @@ As a forgetful customer
 so that I can check when my transactions took place
 I would like to see the date of each of my transactions
 ```
-
-#Completed user stories
---------------------
 ```
 As a person who needs an account
 so that my balance is accurate
@@ -43,3 +40,5 @@ As a customer who likes to save
 so that I can keep track of my money
 I would like my balance to decrease on withdrawal
 ```
+
+TODO- add feature test
