@@ -1,4 +1,4 @@
-# account log is responsible for keeping track of the transactions
+# account log is responsible for keeping a history of the transactions
 class AccountLog
 
   attr_reader :transactions
@@ -8,10 +8,10 @@ class AccountLog
   end
 
   def add_credit_transaction(credited, balance)
-    @transactions << {credit: credited, balance: balance}
+    @transactions << {date: Date.today, credit: credited, balance: balance}
   end
 
   def add_debit_transaction(debited, balance)
-    @transactions << {debit: debited, balance: balance}
+    @transactions << {date: Date.today, debit: debited, balance: balance}
   end
 end
